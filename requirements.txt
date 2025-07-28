@@ -1,0 +1,7 @@
+streamlit
+sentence-transformers
+langchain
+protobuf==3.20.3
+scikit-learn
+faiss-cpu
+openai

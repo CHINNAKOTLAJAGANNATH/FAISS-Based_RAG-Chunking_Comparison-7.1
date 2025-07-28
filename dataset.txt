@@ -1,0 +1,27 @@
+Natural Language Processing is a subfield of AI focused on understanding human language.
+Word embeddings allow models to learn meaning from context.
+Tools like Word2Vec and GloVe have been foundational.
+
+Transformer-based models such as BERT and GPT have revolutionized NLP by enabling deep contextual understanding.
+Attention mechanisms help models focus on relevant parts of the input sequence during learning.
+
+Tokenization splits text into smaller units such as words or subwords, essential for language modeling.
+Pre-training and fine-tuning are key stages in modern NLP pipelines.
+
+Vector databases like FAISS and Weaviate enable efficient similarity search using embeddings.
+Retrieval-Augmented Generation (RAG) combines retrieval and generation for more informed responses.
+
+Chunking strategies like CharacterTextSplitter or RecursiveCharacterTextSplitter in LangChain allow better control over input size.
+Overlap between chunks ensures context continuity and prevents information loss.
+
+Embeddings convert text chunks into numerical vectors for machine understanding.
+Dimensionality reduction techniques such as PCA or t-SNE are often used for visualizing embeddings in 2D or 3D.
+
+Large Language Models (LLMs) are capable of summarization, translation, and even reasoning through advanced prompting.
+Prompt engineering is crucial to guide LLMs toward desired outputs.
+
+Synthetic datasets and data augmentation techniques are used when real-world labeled data is limited.
+Ethical concerns in NLP include bias mitigation, fairness, and responsible use of AI models.
+
+RAG applications are ideal for knowledge-based systems like chatbots and document search engines.
+Understanding how chunking affects retrieval quality can greatly improve downstream task performance.
