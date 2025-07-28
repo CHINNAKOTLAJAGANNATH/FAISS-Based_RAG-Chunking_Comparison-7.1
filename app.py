@@ -62,7 +62,7 @@ if st.button("🔄 Generate Embeddings and Build FAISS Index"):
     st.success("✅ Embeddings and FAISS index ready!")
 
     # 🔍 Display embedding vectors (first 5 dimensions only)
-    st.markdown("### 🧬 Embedding Vectors (First 5 Dimensions)")
+    st.markdown("### 🧬 Embedding Vectors (Dimensions)")
     for i, (chunk, vector) in enumerate(zip(chunks, embeddings)):
         st.markdown(f"**Chunk {i+1}:** {chunk[:100]}...")  # First 100 chars for readability
         st.code(f"{vector[:5].tolist()}")  # Show first 5 dimensions only
